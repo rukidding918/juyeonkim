@@ -1,0 +1,48 @@
+.uk-logo {
+    font-weight: 500;
+}
+
+section {
+    max-width: 1400px;
+    padding-top: 3em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: calc(100vh - 84px); */
+}
+
+.uk-logo {
+    font-size: 28px;
+    letter-spacing: 0.2em;
+}
+
+.uk-navbar-toggle {
+    margin-left: 15px;
+}
+
+.text {
+	background: linear-gradient(-45deg, #6355a4, #6355a4, #e89a3e, #e89a3e);
+	background-size: 200%;
+	-webkit-background-clip: text;
+	animation: animated_text 10s ease-in-out infinite;
+	-webkit-text-fill-color: transparent;
+	/* -moz-animation: animated_text 10s ease-in-out infinite; */
+	/* -webkit-animation: animated_text 10s ease-in-out infinite; */
+    transition: 0.35s
+}
+
+.text:hover {
+    transform: scale(1.02);
+    background: linear-gradient(-45deg, #333, #333, #aaa, #aaa);
+    background-size: 200%;
+	-webkit-background-clip: text;
+	animation: animated_text 10s ease-in-out infinite;
+	-webkit-text-fill-color: transparent;
+}
+
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
