@@ -25,12 +25,27 @@
   left: 80px;
 }
 
-.main-painting {
+.main-screen {
   display: flex;
   justify-content: center;
   align-items: center;
   height: inherit;
   padding: 10%;
+  /* border: 1px solid #000; */
+}
+
+.main-painting {
+  position: relative;
+}
+
+.painting-caption {
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  right: calc(65vw);
+  /* calc(screen width 좌측 25%의 왼쪽 끝에 붙게) */
+  border-right: 1px solid #333;
+  padding-right: 20px;
 }
 
 .uk-nav-divider {
@@ -79,11 +94,29 @@
     padding-left: 0 10%;
   }
 
-  .main-painting {
-    height: 80vh;
-    padding-bottom: 30vh;
+  .main-screen {
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: flex-start;
+    margin-top: 0 !important;
+    padding-top: 0;
   }
+  
+  .main-painting {
+    max-width: 700px;
 
+  }
   a {color: white !important;}
 
+  .painting-caption {
+    bottom: auto;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    /* calc(image height) */
+    left: 0;
+    
+    border-top: 1px solid #333;
+    border-right: none;
+  }
 }
