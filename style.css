@@ -38,14 +38,19 @@
   position: relative;
 }
 
+.main-painting .uk-box-shadow-bottom img {
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
 .painting-caption {
   position: absolute;
   bottom: 0;
   width: 200px;
-  right: calc(65vw);
+  right: calc(60vw);
   /* calc(screen width 좌측 25%의 왼쪽 끝에 붙게) */
   border-right: 1px solid #333;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 
 .uk-nav-divider {
@@ -107,6 +112,9 @@
     max-width: 700px;
 
   }
+
+
+
   a {color: white !important;}
 
   .painting-caption {
