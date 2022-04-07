@@ -24,12 +24,6 @@ a.uk-inline img:hover {
 
 .uk-lightbox-items>*>* {padding: 3rem;}
 
-.about {
-  font-family: font-family: 'Noto Serif KR', serif !important;
-}
-
-/* .uk-lightbox-items>*>:not(iframe) {padding: 3rem;} */
-
 .uk-h3 {
   font-size: 1.2rem;;
   font-weight: 700;

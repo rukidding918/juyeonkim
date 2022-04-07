@@ -1,0 +1,22 @@
+.main-screen {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 20%;
+  }
+
+.about h3 {
+    font-family: 'Noto Sans KR', sans-serif !important;
+    letter-spacing: 0.05rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+
+}
+.about p {
+    font-family: 'Noto Sans KR', sans-serif !important;
+    letter-spacing: 0.05rem;
+    word-spacing: 0.2rem;
+    line-height: 1.7rem;
+    text-indent: 0.7rem;
+  }
