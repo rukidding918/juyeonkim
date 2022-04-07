@@ -52,7 +52,7 @@ for item in menus:
         new_div = soup.new_tag('div')
         lightbox_div.append(new_div)
         caption = img_path.split('/')[2].replace('.jpg', '').replace(' - ', ', ')
-        new_a = soup.new_tag('a', attrs={'class': 'uk-inline', 'href': img_path, 'data-cation': caption})
+        new_a = soup.new_tag('a', attrs={'class': 'uk-inline', 'href': img_path, 'data-caption': caption})
         new_img = soup.new_tag('img', attrs={'src': thumb_path, 'alt': caption})
 
         new_a.append(new_img)
