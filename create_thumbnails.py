@@ -1,8 +1,13 @@
 import os
+import shutil
 from PIL import Image
 
 
 img_dir = 'images/'
+thumb_dir = 'thumbnails/'
+
+shutil.rmtree(thumb_dir)
+
 img_dir_tree = [(root, dirs) for root, dirs, _ in os.walk(img_dir)]
 menus = img_dir_tree[0][1]
 
