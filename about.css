@@ -1,36 +1,44 @@
 .main-screen {
-    display: flex;
-    align-items: flex-start;
-    padding-right: 20%;
-  }
+  display: flex;
+  align-items: flex-start;
+  padding-right: 20%;
+}
 
 .about {
-    font-family: 'Noto Sans KR', sans-serif !important;
+  font-family: 'Noto Sans KR', sans-serif !important;
 }
+
 .about h3 {
-    letter-spacing: 0.05rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 4rem;
+  letter-spacing: 0.05rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
 
 }
 
 .about .author {
-    display: flex;
-    justify-content: end;
-    padding-bottom: 3rem;
+  display: flex;
+  justify-content: end;
+  /* padding-bottom: 3rem; */
 }
+
 .about p {
-    letter-spacing: 0.05rem;
-    word-spacing: 0.2rem;
-    line-height: 1.7rem;
-    text-indent: 0.7rem;
+  letter-spacing: 0.05rem;
+  word-spacing: 0.2rem;
+  line-height: 1.7rem;
+  text-indent: 0.7rem;
+}
+.about p:first-child {
+  padding-top: 3rem;
+}
+
+.contact {
+  vertical-align: sub;
+}
+@media (max-width:1200px) {
+  .main-screen {
+    padding-right: 10%;
   }
 
-  @media (max-width:1200px) {
-    .main-screen {
-        padding-right: 10%;
-      }
-
-  }
+}

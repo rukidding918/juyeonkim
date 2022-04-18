@@ -1,0 +1,118 @@
+/* layout css */
+body {
+  background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+.main-container {
+  /* border: 1px solid green; */
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.header {
+  /* border: 1px solid #000; */
+  padding-top: 5vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.uk-slideshow-items img {
+  border: 1px solid #000;
+  /* width: 500px !important; */
+  object-fit: scale-down;
+}
+
+.main {
+  /* border: 1px solid red; */
+  position: relative;
+/* width: 80%; */
+margin: auto;
+}
+
+.painting-container {
+
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+.image-holder {
+  width:100%;
+}
+
+.painting-subject {
+  /* position: absolute; */
+  /* top: -8rem; */
+}
+
+.caption {
+  position: absolute;
+  bottom: -5rem;
+  border-top: 1px solid #555;
+  padding-top: 0.7rem;
+  padding-right: 5rem;
+}
+.empty {
+  height: 2rem;
+}
+
+/* details css */
+.uk-icon {
+  color: black;
+  /* border: 1px solid #000; */
+  /* line-height: 2rem; */
+  /* display: table-cell; */
+  /* vertical-align: bottom; */
+  padding: 0 0.5rem 0 1rem;
+  /* margin-bottom: 2px; */
+}
+
+h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.12rem;
+  /* padding-top: 0.5rem; */
+
+  /* line-height: 2rem; */
+}
+
+.uk-box-shadow-bottom img {
+  /* max-width: 650px; */
+  max-width: 80vw;
+  max-height: 70vh;
+}
+
+.uk-description-list {
+  font-size: 0.7rem;
+}
+
+
+
+
+
+/* offcanvas */
+.uk-offcanvas-close {
+  margin-top: 1rem;
+}
+
+.uk-nav-default {
+  margin-top: 1rem;
+}
+
+/* slideshow css */
+.uk-slideshow {
+  /* min-width: 50vw; */
+}
+
+.uk-slideshow img {
+  /* max-width: 650px; */
+  /* max-height: 70vh; */
+}
+
+.uk-slidenav svg {
+  color: #000;
+  ;
+}
